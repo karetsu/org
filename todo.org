@@ -1,0 +1,17 @@
+#+TITLE: Aloysius' TO DO list
+
+* PROJ Weighting proxy
+** TODO Weight density function [0/4]
+- [ ] Delta function (selected price)
+- [ ] Function to 'smear' points to nearby given a function
+- [ ] Sum the weights from each smearing
+- [ ] Normalise the new weights
+
+* PROJ Distributional indexes
+** TODO Change in distribution [0/2]
+- [ ] Kolmogorov-Smirnoff test for each sample of prices
+- [ ] Measure of difference in samples if from same distribution
+** TODO Difference in distributions [0/4]
+- [ ] Jensen-Shannon
+- [ ] Wasserstein Distance
+- [ ] Something like a Q-Q plot to see if parallel (ie. level shift)
